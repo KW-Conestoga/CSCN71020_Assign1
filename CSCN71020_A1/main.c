@@ -17,6 +17,7 @@ void main() {
 	printf("Enter operation number: ");
 	scanf_s("%1o", &inputNum);
 
+	//added break statements
 	switch (inputNum)
 	{
 	case 1:
@@ -41,6 +42,7 @@ void printOptions() {
 	printf("2. Subtract\n");
 }
 
+// addition method takes 2 inputs and adds the inputs
 void add() {
 	double num1, num2, result;
 	printf("Enter the first value:");
@@ -51,6 +53,7 @@ void add() {
 	printf("%lf + %lf = %lf\n", num1, num2, result);
 }
 
+// subtraction method takes 2 inputs and subtracts the second input from the first
 void sub()
 {
 	double num1, num2, result;
